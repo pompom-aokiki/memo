@@ -35,7 +35,7 @@ git log
 git revert コミット番号  
 
 ### ステージング前を修正前に戻す（.をファイル名にすると個別）  
-git checkout . 
+git checkout .  
 ###　スタッシュ  
 スタッシュ保存  
 git stash save  
