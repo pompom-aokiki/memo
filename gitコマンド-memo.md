@@ -49,6 +49,7 @@ git stash drop stash@{0}
 スタッシュを戻して消す  
 git stash pop stash@{0}  
 
-
+### git statusで日本語文字が文字化けする場合
+git config --global core.quotepath false
 
 
