@@ -1,4 +1,6 @@
 # gitコマンド  
+### git clone  
+git clone 〇〇〇  
 ### リモートブランチの一覧
 git branch -a  
 ### ブランチ名  
