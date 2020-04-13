@@ -1,5 +1,5 @@
 //FizzBuzz-----------------------------------------------
-    public class Main {
+    public class java_study_test {
         public static void main(String[] args) throws Exception {
             System.out.println("start");
             for (int i = 1;i <= 30;i++){
