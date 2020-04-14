@@ -66,10 +66,28 @@
 ### chgrp -r アクセス権 ディレクトリA
 ディレクトリAの全てのアクセス権を変更する  
   
+### ファイルの解答方法  
+tar -xvf xxx.tar  
+※以下のURLに圧縮系のコマンドが記載されている  
+「https://qiita.com/supersaiakujin/items/c6b54e9add21d375161f」   
+  
+## シェル操作コマンド
+### コマンド履歴の確認
+history | grep [検索対象文字列]
+### 検索
+grep "test"
+### 検索(否定)
+grep -v "test"
+### 検索(複数)
+grep -v "test" | grep -v "test" 
+### ディレクトリの移動
+cd 〇〇
+### カレントディレクトリの表示
+pwd
 
 
-
-
-
+## ファイル新規作成
+touch ファイル名
+※詳細はこっち：https://eng-entrance.com/linux-command-touch
 
 
